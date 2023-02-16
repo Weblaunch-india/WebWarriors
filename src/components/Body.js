@@ -1,4 +1,5 @@
 import React from "react";
+import heroImage from "../images/hero.jpg";
 
 export default function Body() {
   return (
@@ -17,7 +18,7 @@ export default function Body() {
       </div>
       <div className="max-w-[50%] pt-8 block mx-auto">
         <img
-          src="/images/hero.jpg"
+          src={heroImage}
           className="rounded-2xl shadow-xl shadow-white/40"
           alt="vector-farming"
         />
