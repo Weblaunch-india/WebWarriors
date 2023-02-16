@@ -1,3 +1,8 @@
-# Resources used.
+# WebWarriors
 
-Hero Image: https://www.freepik.com/free-vector/people-taking-care-plants-flat-design_14213077.htm#page=2&query=agriculture%20vector&position=11&from_view=search&track=ais
+Team 11
+Create a landing page of the respected sector that was assigned
+Must include
+1 Navbar with Home, About, Contact, and Login
+2 Footer with Address and links of social networks
+3 Add the body of any project thats in your Domain
