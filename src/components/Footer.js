@@ -3,20 +3,17 @@ import React from "react";
 export default function Footer() {
   const url = "#";
   return (
-    <footer className="bottom-0 left-0 bg-red-500 w-screen  p-4 bg-white rounded-t-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+    <footer className="bottom-0 left-0 bg-red-500 w-full  p-4 bg-white rounded-t-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
       <span className="text-sm text-gray-500 sm:text-center ml-3 dark:text-gray-400">
         © 2023{" "}
-        <a href={url} className="hover:underline">
+        <a href={url} className="hover:underline ">
           TechAgro
         </a>
         . All Rights Reserved.
       </span>
-      <ul className="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
-        <div className="flex mr-8 mt-4 space-x-6 sm:justify-center sm:mt-0 ">
-          <a
-            href={url}
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-green-400"
-          >
+      <ul className="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0 ">
+        <div className="flex md:mr-8 lg:mr-8 xl:mr-8 mt-4 space-x-6 sm:items-center  ">
+          <a href={url} className="text-gray-500 icon">
             <svg
               className="w-5 h-5"
               fill="currentColor"
@@ -32,8 +29,8 @@ export default function Footer() {
             <span className="sr-only">Facebook page</span>
           </a>
           <a
-            href={url}
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-green-400"
+            href="https://www.instagram.com/yogesh_bhutkar.97/"
+            className="text-gray-500  icon"
           >
             <svg
               className="w-5 h-5"
@@ -49,10 +46,7 @@ export default function Footer() {
             </svg>
             <span className="sr-only">Instagram page</span>
           </a>
-          <a
-            href={url}
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-green-400"
-          >
+          <a href={url} className="text-gray-500 icon ">
             <svg
               className="w-5 h-5"
               fill="currentColor"
@@ -65,7 +59,7 @@ export default function Footer() {
           </a>
           <a
             href="https://github.com/yogeshbhutkar"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-green-400"
+            className="text-gray-500 icon"
             target="_blank"
             rel="noreferrer"
           >

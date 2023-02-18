@@ -8,3 +8,7 @@
 .shadow-impact{
   box-shadow: 0 3px 10px rgba(243, 241, 241, 0.2);
 }
+
+.button-bg{
+  background-color: #2FD3B2;
+}

@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 
 
 body {
@@ -9,6 +10,10 @@ body {
   overflow-x: hidden !important;
 	min-height: 100vh;
   font-family: 'Poppins' sans-serif;
+}
+
+.wid {
+  width: 45% !important;
 }
 
 .hero{
@@ -22,7 +27,30 @@ body {
   font-family: 'Outfit', sans-serif;
 }
 
-#text{
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+.about{
+  background-color: #1F2937;
+  height: 95vh;
+  border-radius: 40px;
 }
 
+.about-text  {
+  background-color: #2cc9b4;
+}
+
+:hover.icon {
+  color: #38e7d0;
+}
+
+.tilt-text {
+  font-family: 'Marck Script', cursive;
+  color: #37ecd4;
+}
+
+.about-sub {
+  letter-spacing: 1.25px;
+}
+
+.about-1{
+  background-color: #2CC9B4;
+  margin-left: 5rem;
+}
