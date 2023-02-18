@@ -8,14 +8,14 @@ export default function Home() {
     AOS.init();
   }, []);
   return (
-    <section id="about" className="hero mt-10">
-      <div className="flex my-10 ">
+    <section id="about" className="hero-about mt-10">
+      <div className="flex all-cards flex-wrap  md:my-10 xl:my-10 lg:my-10 ">
         <div
           data-aos="fade-zoom-in"
           data-aos-easing="ease-in-back"
           data-aos-delay="150"
           data-aos-offset="0"
-          className="wid ml-[10%] block about shadow-lg relative shadow-white/10"
+          className="  wid ml-[10%] about-card w-full md:w-1/2 xl:w-1/2 lg:w-1/2  about shadow-lg relative shadow-white/10 text-ellipsis overflow-hidden"
         >
           <div className="py-[5%] px-[5%] ">
             <p
@@ -39,14 +39,7 @@ export default function Home() {
               they grow to the amount of water they need to grow in a particular
               day.
             </p>
-            <p className="text-slate-300 pb-7 about-sub leading-7 text-xl font-normal">
-              Now don't think too much about planting crops either in fields or
-              in your appartments, especially when your personal crop assistant,
-              TechAgro is busy helping your plants grow well. Bye Bye
-              traditional books, and welcome the revolution of Artificial
-              Intelligence.
-            </p>
-            <p className="text-2xl font-light mt-10 tilt-text">
+            <p className="text-2xl tag-line font-light mt-10 tilt-text">
               Simple efforts, revolutionary fruits. 💚
             </p>
           </div>
@@ -65,9 +58,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="font-normal items-center pl-10 ml-10 flex grid grid-rows-3 text-center">
+        <div className="font-normal main-card items-center flex grid grid-rows-3 text-center ">
           <div
-            className=" my-10 py-5 px-3 h-fit w-full about-1 shadow-lg shadow-emerald-500/70 rounded-lg "
+            className="about-cards my-10 py-5 px-3 h-fit w-full about-1 shadow-lg shadow-emerald-500/70 rounded-lg "
             data-aos="fade-down"
           >
             <p className="text-white font-bold text-2xl">$15 Billion</p>
@@ -76,14 +69,14 @@ export default function Home() {
             </p>
           </div>
           <div
-            className="h-fit w-full py-5 px-3 about-1 shadow-lg shadow-emerald-500/60 rounded-lg "
+            className="about-cards h-fit w-full py-5  about-1 shadow-lg shadow-emerald-500/60 rounded-lg "
             data-aos="fade-down"
           >
             <p className="text-white font-bold text-2xl">2.9 Million</p>
             <p className="text-white text-xl">farmers worldwide.</p>
           </div>
           <div
-            className="h-fit w-full my-10 py-5 px-3 about-1 shadow-lg shadow-emerald-500/60 rounded-lg "
+            className=" about-cards h-fit w-full my-10 py-5  about-1 shadow-lg shadow-emerald-500/60 rounded-lg "
             data-aos="fade-down"
           >
             <p className="text-white font-bold text-2xl">914 Million</p>

@@ -12,9 +12,6 @@ body {
   font-family: 'Poppins' sans-serif;
 }
 
-.wid {
-  width: 45% !important;
-}
 
 .hero{
   height: 100vh;
@@ -53,4 +50,36 @@ body {
 .about-1{
   background-color: #2CC9B4;
   margin-left: 5rem;
+}
+
+@media screen and (max-width: 1300px){
+  .about-card{
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    margin-top: 0 !important;
+  }
+  .hero-about{
+    height: 150vh;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+  }
+  .all-cards{
+    align-items: center;
+  justify-content: center;
+  }
+
+  .main-card{
+    margin-top: 30px;
+  }
+
+  .about-cards{
+    padding: 10px 10px   !important; 
+    margin:20px 0px !important;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .tag-line {
+    opacity: 0;
+  }
 }
