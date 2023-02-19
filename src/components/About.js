@@ -9,13 +9,13 @@ export default function Home() {
   }, []);
   return (
     <section id="about" className="hero-about mt-10">
-      <div className="flex all-cards flex-wrap  md:my-10 xl:my-10 lg:my-10 ">
+      <div className="flex mt-10 all-cards flex-wrap  md:my-10 xl:my-10 lg:my-10 ">
         <div
           data-aos="fade-zoom-in"
           data-aos-easing="ease-in-back"
           data-aos-delay="150"
           data-aos-offset="0"
-          className="  wid ml-[10%] about-card w-full md:w-1/2 xl:w-1/2 lg:w-1/2  about shadow-lg relative shadow-white/10 text-ellipsis overflow-hidden"
+          className="my-10  wid ml-[10%] about-card w-full md:w-1/2 xl:w-1/2 lg:w-1/2  about shadow-lg relative shadow-white/10 text-ellipsis overflow-hidden"
         >
           <div className="py-[5%] px-[5%] ">
             <p
