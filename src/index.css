@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+
+body {
+  background-color: #111827;
+  overflow-x: hidden !important;
+	min-height: 100vh;
+  font-family: 'Poppins' sans-serif;
+}
+
+
+.hero{
+  height: 100vh;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+}
+
+.hero-subtext{
+  font-weight: 500;
+  font-family: 'Outfit', sans-serif;
+}
+
+.about{
+  background-color: #1F2937;
+  height: 95vh;
+  border-radius: 40px;
+}
+
+.about-text  {
+  background-color: #2cc9b4;
+}
+
+:hover.icon {
+  color: #38e7d0;
+}
+
+.tilt-text {
+  font-family: 'Marck Script', cursive;
+  color: #37ecd4;
+}
+
+.about-sub {
+  letter-spacing: 1.25px;
+}
+
+.about-1{
+  background-color: #2CC9B4;
+  margin-left: 5rem;
+}
+
+@media screen and (max-width: 1300px){
+  .about-card{
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    margin-top: 0 !important;
+  }
+  .hero-about{
+    height: 150vh;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+  }
+  .all-cards{
+    align-items: center;
+  justify-content: center;
+  }
+
+  .main-card{
+    margin-top: 30px;
+  }
+
+  .about-cards{
+    padding: 10px 10px   !important; 
+    margin:20px 0px !important;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .tag-line {
+    opacity: 0;
+  }
+}
